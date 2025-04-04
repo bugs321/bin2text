@@ -1,3 +1,10 @@
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'Author Name: Naveen Nainegali
+'File Name 	: bin2text
+'About File : Script to covert Binary to Text and Text to Binary
+'License	: Under MIT Open Source License 
+'	 This scipt is to be used for community use and educational purpose only, no illegal or unauthorized use of this script is permitted. 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 Set oarg = wscript.Arguments
 if oarg.Count <> 03 Then
         wscript.echo "format: " & wscript.ScriptName & " {bin2text|text2bin} {inputfile} {outputfile}"
@@ -43,3 +50,6 @@ Sub ReadTextWriteBin (inpfile,outfile)
   ins.Close
   ous.Close
 End Sub
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'End of File
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
